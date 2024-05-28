@@ -25,12 +25,14 @@ Some day I will research this and update this readme with more accurate informat
 
 ## Setup
 This is a simple python script. Set it up by downloading the files from this GitHub page. Run the following command:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 I recommend always using a virtual environment for each new project to keep things clean, but that is up to you. 
 
 ## Usage
 ```
-backstage.py [-h] --drive DRIVE --output OUTPUT [--verbose]
+python3 backstage.py [-h] --drive DRIVE --output OUTPUT [--verbose]
 
 Microsoft Backstage Parser. This will parse Microsoft Backstage files into a CSV file.
 
