@@ -7,7 +7,7 @@ Microsoft Backstage is a tool that most Office programs utilize. This tool is ac
 
 This can be of use in digital forensics. Fortunatley, all the data is easily parsable within several json files on the local machine. These files are found at:
 ```
-C:\users\\\*\AppData\Local\Microsoft\Office\16.0\BackstageInAppNavCache\\\*\*\\\*.json
+C:\users\*\AppData\Local\Microsoft\Office\16.0\BackstageInAppNavCache\**\*.json
 ```
 
 This artifact contains interesting information related to directories viewed in the Backstage view, such as:
